@@ -23,4 +23,6 @@ segment:
        0x8
 
 
+
+![alt text](https://github.com/sonnny/pico_template/blob/main/segment_led.jpg?raw=true)
 ![Model](https://github.com/sonnny/pico_template/blob/main/segment_led.jpg)
