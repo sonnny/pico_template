@@ -24,5 +24,5 @@ segment:
 
 
 
-![Model](https://github.com/sonnny/pico_template/blob/main/segment_led.jpg?raw=true)
-![Model](https://github.com/sonnny/pico_template/blob/main/segment_led.jpg)
+![Model](https://github.com/sonnny/pico_template/blob/main/img/segment_led.jpg?raw=true)
+![Model](https://github.com/sonnny/pico_template/blob/main/img/segment_led.jpg)
