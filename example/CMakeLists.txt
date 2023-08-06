@@ -4,7 +4,7 @@ set(PICO_SDK_PATH "/home/sonny/pico/pico-sdk")
 
 include("${PICO_SDK_PATH}/external/pico_sdk_import.cmake")
 
-add_subdirectory(.. pico_template1)
+add_subdirectory(.. pico_template)
 
 project(template_example C CXX ASM)
 set(CMAKE_C_STANDARD 11)
