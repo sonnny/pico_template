@@ -21,3 +21,6 @@ segment:
 0x10  |    |0x4
        ____
        0x8
+
+
+![Model](https://github.com/sonnny/pico_template/blob/main/segment_led.jpg)
