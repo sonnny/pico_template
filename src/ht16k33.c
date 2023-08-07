@@ -14,12 +14,12 @@ void ht16k33_display(int position, uint16_t bin) {
 
 void ht16k33_init() {
 	
-	// init i2c0 400khz on pins 16 and 17
-	i2c_init(i2c0,400*1000);
-	gpio_set_function(16,GPIO_FUNC_I2C); gpio_set_function(17,GPIO_FUNC_I2C);
-	gpio_pull_up(16); gpio_pull_up(17);
+    // init i2c0 400khz on pins 16 and 17
+    i2c_init(i2c0,400*1000);
+    gpio_set_function(16,GPIO_FUNC_I2C); gpio_set_function(17,GPIO_FUNC_I2C);
+    gpio_pull_up(16); gpio_pull_up(17);
 	
-	// init ht16k33 see pico i2c example
+    // init ht16k33 see pico i2c example
     i2c_write_byte(0x21);
     i2c_write_byte(0xA0);
     i2c_write_byte(0x80 | 0x1);
